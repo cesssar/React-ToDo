@@ -6,11 +6,11 @@ Implementado a partir do post [https://blog.debugeverything.com/pt/do-zero-const
 
 ![Flask + React](https://i0.wp.com/blog.learningdollars.com/wp-content/uploads/2019/12/Screen-Shot-2019-12-05-at-8.38.17-AM-1.png?resize=768%2C266&ssl=1)
 
-### 1) Entrar na pasta backend e iniciar o Flask API
+### 1) Entrar na pasta back-end e iniciar o Flask API
 
 - criar o ambiente virtual (python3 -m venv venv)
 - ativar o ambiente (source ./venv/bin/activate)
-- instalar bibliotecas (pip install -r requiriments)
+- instalar bibliotecas (pip install -r requiriments.txt)
 - iniciar a API (python main.py)
 
 
@@ -34,6 +34,7 @@ npm run build
 
 
 2) devido restrições de segurança CORS foi necessário configurar a aplicação React para enviar os headers necessários, dessa forma o objeto json é enviado para o back-end Python.
+
 
 > headers: new Headers({
 >                "Content-Type": "application/json",
